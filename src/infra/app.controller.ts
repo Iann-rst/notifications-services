@@ -5,7 +5,7 @@ import { randomUUID } from 'node:crypto';
 
 @Controller('notifications')
 export class AppController {
-  constructor(private readonly prisma: PrismaService) { }
+  constructor(private readonly prisma: PrismaService) {}
 
   @Get()
   list() {
