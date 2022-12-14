@@ -1,5 +1,5 @@
 import { randomUUID } from 'node:crypto';
-import { Replace } from './../../helpers/Replace';
+import { Replace } from '@helpers/Replace';
 import { Content } from './content';
 /**
  * Entidade de notificações - utilizando getters e setters
